@@ -15,7 +15,7 @@ header {
 
 main {
   width: 960px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
 }
 
@@ -31,19 +31,25 @@ main {
   margin: 0;
 }
 
-.flow-img {
+.flow-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 
-.flow-img:nth-child(2) {
+.flow-img2 {
+  height: 150px;
   background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
-.flow-img:nth-child(3) {
+.flow-img3 {
+  height: 150px;
   background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .flow-number {
@@ -55,15 +61,10 @@ main {
 }
 
 .flow-heading {
-  padding-top: 15px;
-}
-
-.flow-text {
-  padding-top: 5px;
+  margin: 15px 0 5px;
 }
 
 footer {
-  margin-top: 50px;
   height: 50px;
   background-color: #aaaaaa;
 }
