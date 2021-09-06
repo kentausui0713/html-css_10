@@ -57,7 +57,7 @@ main {
   top: 0;
   left: 0;
   background-color: #ff9a4b;
-  color: white;
+  color: #fff;
 }
 
 .flow-heading {
@@ -67,4 +67,21 @@ main {
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .flow-box {
+    width: 90%;
+    margin: 0 5% 20px;
+  }
+
+  .flow-box:last-child {
+    margin: 0 5%;
+  }
 }
